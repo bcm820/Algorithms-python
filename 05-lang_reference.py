@@ -27,5 +27,3 @@ invoker(lambda y: 5 + y)
 def incrementor(num):
     return lambda x: num + x
 print(incrementor(5)(3)) # 8
-
-# 
